@@ -1,0 +1,27 @@
+.home-section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-section-head .section-title {
+  margin-bottom: 0;
+}
+
+.home-view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  white-space: nowrap;
+  transition: gap var(--transition);
+}
+
+.home-view-all:hover {
+  gap: 12px;
+}

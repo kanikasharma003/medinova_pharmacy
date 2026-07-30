@@ -1,0 +1,32 @@
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 26px 22px;
+  gap: 4px;
+}
+
+.category-card__icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  transition: transform var(--transition);
+}
+
+.category-card:hover .category-card__icon {
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.category-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.category-card p {
+  font-size: 0.84rem;
+  color: var(--color-text-muted);
+}

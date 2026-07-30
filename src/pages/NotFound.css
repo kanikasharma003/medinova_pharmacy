@@ -1,0 +1,25 @@
+.not-found {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 24px;
+}
+
+.not-found svg {
+  font-size: 2.6rem;
+  color: var(--color-primary);
+  margin-bottom: 18px;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.not-found p {
+  color: var(--color-text-muted);
+  margin-bottom: 26px;
+}
